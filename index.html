@@ -12,50 +12,105 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Anasayfa<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="products.html">Ürünlerimiz</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about-us.html">Hakkımızda</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">İletişim</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Ara" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
-          </form>
-        </div>
+<!-- Start of .navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Anasayfa<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Ürünlerimiz</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">Hakkımızda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">İletişim</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Ara" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Arama</button>
+        </form>
+      </div>
     </nav>
+<!-- End of .navbar -->
 
-    <div class="jumbotron jumbotron-fluid padding">
-        <div class="container">
-          <h1 class="display-4">Müzik Dükkanımıza hoşgeldiniz...</h1>
-          <p class="lead">Müzik tutkunlarına gönülden selamlar. Dünya çapında en iyi, en kaliteli ve bir çok farklı kültürden müzik enstrümanlarını sizler için bir araya topladık.</p>
-          <p class="lead">Onlara hemen göz atmak isterseniz <a href="products.html">Ürünlerimiz</a> sayfasını ziyaret edebilirsiniz.</p>
-          <p class="lead">Ayrıca bizi her zaman ziyaret <span><a href="contact.html">edebilirsiniz</a></span>.</p>
+<!-- Start of .jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-white">
+      <div class="container">
+        <h1 class="display-4">Müzik Dükkanımıza hoşgeldiniz...</h1>
+        <p class="lead">Müzik tutkunlarına gönülden selamlar. Dünya çapında en iyi, en kaliteli ve bir çok farklı kültürden müzik enstrümanlarını sizler için bir araya topladık.</p>
+        <p class="lead">Onlara hemen göz atmak isterseniz <a href="products.html">Ürünlerimiz</a> sayfasını ziyaret edebilirsiniz.</p>
+        <p class="lead">Ayrıca bizi her zaman ziyaret <span><a href="contact.html">edebilirsiniz</a></span>.</p>
+      </div>
+    </div>
+<!-- End of .jumbotron -->
+
+<!-- Start of .card -->
+    <div class="container" style="display: flex;">
+      <div class="card ml-5 mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <img class="img-fluid" src="image/bateri.jpg" alt="">
+          <h5 class="card-title">Bateri</h5>
+          <a href="#" class="btn btn-primary">Alışverişe Başla</a>
         </div>
+      </div>
+      <div class="card ml-5 mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <img class="img-fluid" src="image/davul.jpg" alt="">
+          <h5 class="card-title">Davul</h5>
+          <a href="#" class="btn btn-primary">Alışverişe Başla</a>
+        </div>
+      </div>
+      <div class="card ml-5 mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <img class="img-fluid" src="image/elektrogitar.jpg" alt="">
+          <h5 class="card-title">Elektrogitar</h5>
+          <a href="#" class="btn btn-primary">Alışverişe Başla</a>
+        </div>
+      </div>
     </div>
 
-    <footer class="container mt-2">
-        <div class="row">
-            <div class="col-sm-12 bg-dark p-4 rounded" style="text-align: center;">
-                <p style="color:lightgray">
-                    Copyright 2022 by Mazesoft Web Design. All Rights Reserved.
-                </p>
-                <p class="fst-italic" style="color:lightgray">
-                    music-store is Powered by W3.CSS and <a class="link-secondary" href="https://getbootstrap.com/" title="Bootstrap" target="_blank">Bootstrap</a>
-                </p>
-            </div>
+    <div class="container" style="display: flex;">
+      <div class="card ml-5 mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <img class="img-fluid" src="image/gitar.jpg" alt="">
+          <h5 class="card-title">Gitar</h5>
+          <a href="#" class="btn btn-primary">Alışverişe Başla</a>
         </div>
-    </footer>
+      </div>
+      <div class="card ml-5 mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <img class="img-fluid" src="image/keman.jpg" alt="">
+          <h2 class="card-title">Keman</h5>
+          <a href="#" class="btn btn-primary">Alışverişe Başla</a>
+        </div>
+      </div>
+      <div class="card ml-5 mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <img class="img-fluid mb-5" src="image/piyano.jpg" alt="">
+          <h5 class="card-title">Piyano</h5>
+          <a href="#" class="btn btn-primary">Alışverişe Başla</a>
+        </div>
+      </div>
+    </div>
+<!-- End of .card -->
+
+<!-- Start of .container -->
+<div class="container-fluid my-1">
+  <footer class="bg-dark text-center text-lg-start text-white rounded-top rounded-3">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2022 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MazlumGunes(MazeSoft)</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+<!-- End of .container -->
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
